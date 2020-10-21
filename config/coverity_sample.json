@@ -1,0 +1,23 @@
+{
+	"Key = The requested object name as string": "Value = Request object json as values",
+	"createProject": {
+		"name": "sample-test-project",
+		"description": "creating sample test project using python scripts"
+	},
+	"streamSpecDataObj": {
+		"name": "sample-test-stream",
+		"description": "creating sample test stream using python scripts",
+		"language": "JAVA"
+	},
+	"roleSpecDataObj": {
+		"deletable": true,
+		"description": "Test user creation",
+		"editable": true,
+		"name": "test_user_xyz",
+		"permissionDataObjs": [
+			{
+				"permissionValue": "Viewer"
+			}
+		]
+	}
+}
